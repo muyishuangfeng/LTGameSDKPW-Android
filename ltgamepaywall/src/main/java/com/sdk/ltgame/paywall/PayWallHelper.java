@@ -81,8 +81,7 @@ class PayWallHelper {
                                     request.setTestMode(false);
                                 }
                                 request.addPwLocal();
-                                request.addPwlocalParams(Const.P.EMAIL, "fixed");
-                                request.addPwlocalParams(Const.P.WIDGET, "pw");
+                                request.addPwlocalParams(Const.P.WIDGET, "pw_1");
                                 request.addPwlocalParams(Const.P.PS, "all");
                                 request.addPwlocalParams(Const.P.EVALUATION, "1");
                                 Intent intent = new Intent(mActivityRef.get(), PaymentSelectionActivity.class);
